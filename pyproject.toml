@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "epb"
-version = "0.1.0"
+version = "0.1.1"
 description = "Energy performance of buildings"
 authors = ["Arthur White <arthur@white.li>"]
 license = "MIT"
