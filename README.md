@@ -19,7 +19,7 @@ poetry add epb
 ## Usage
 
 ```py
-from epb.utils import Regulator, energy_class, total_consumption
+from epb import Regulator, energy_class, total_consumption
 
 
 eclass = energy_class(Regulator.BRUSSELS, 100)
