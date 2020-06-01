@@ -10,10 +10,10 @@ class Regulator(Enum):
     Exception: energy classes are not used in Flanders.
     """
 
-    BRUSSELS = 1
-    FLANDERS = 2
-    FRANCE = 3
-    WALLONIA = 4
+    BRUSSELS = "BRUSSELS"
+    FLANDERS = "FLANDERS"
+    FRANCE = "FRANCE"
+    WALLONIA = "WALLONIA"
 
 
 def energy_class(regulator: Regulator, consumption: float) -> Optional[str]:

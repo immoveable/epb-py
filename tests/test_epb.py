@@ -1,4 +1,4 @@
-from epb.utils import Regulator, energy_class, total_consumption
+from epb import Regulator, energy_class, total_consumption
 
 
 def test_energy_class():
